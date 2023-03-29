@@ -1,0 +1,6 @@
+pandas
+numpy
+torrequest
+beautifulsoup4
+tqdm
+ipywidgets
