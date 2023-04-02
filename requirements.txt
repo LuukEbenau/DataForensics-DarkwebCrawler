@@ -4,3 +4,4 @@ torrequest
 beautifulsoup4
 tqdm
 ipywidgets
+selenium
