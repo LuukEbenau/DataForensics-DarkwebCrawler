@@ -1,0 +1,390 @@
+<!DOCTYPE html> <html lang="en" class="dark bg-gradient-to-br from-gray-800 to-gray-900 min-h-screen"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>theillusiveman | Archetyp</title> <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> <meta http-equiv="Content-Security-Policy" content="script-src 'none'"> </head> <body class="min-h-screen"> <div class="container mx-auto px-6"> <header class="flex flex-col md:flex-row md:items-center pt-10 pb-6 sm:pb-19"> <div class="flex flex-col sm:flex-row items-center w-full md:w-auto"> <a href="/"> <span class="font-serif text-white font-semibold mr-6 ml-6"> <div class="maintenance"> <div class="logonavbartop"> <div class="parent_triangel"> <div class="triangel"></div> </div> </div> </div> </span> </a> <nav class="mt-5 sm:mt-0 sm:ml-auto md:ml-0"> <ul class="flex flex-col sm:flex-row text-gray-600"> <li> <a href="/" title="Visit the mainpage" class="py-1 sm:py-0 h-full flex items-center py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white px-3"> <span>Home</span> </a> </li> <li> <a href="/market" title="Browse marketplace" class="py-1 sm:py-0 h-full flex items-center py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white px-3"> <span>Market</span> </a> </li> <li> <a href="/forum" title="Browse forum" class="py-1 sm:py-0 h-full flex items-center py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white px-3"> <span>Forum</span> </a> </li> <li> <a href="/orders" title="Check orders" class="py-1 sm:py-0 h-full flex items-center transition-colors duration-200 py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white px-3"> <span>Orders</span> </a> </li> <li> <a href="/disputes" title="Check disputes" class="py-1 sm:py-0 h-full flex items-center transition-colors duration-200 py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white px-3"> <span>Disputes</span> </a> </li> <li> <a href="/message" title="Check messages  " class="py-1 sm:py-0 h-full flex items-center py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white px-3"> <span>Messages</span> </a> </li> <li class="sm:ml-6"> <a href="/refresh" title="Refresh page" class="py-1 sm:py-0 h-full flex items-center hover:text-white px-3"> <i class="gg-sync icon-normal"></i> </a> </li> </ul> </nav> </div> <div class="mr-auto sm:mr-0 ml-auto mt-6 md:mt-0"> <ul class="flex flex-row text-gray-600"> <li> <a href="/u/fmanf" title="Your profile" class="h-full flex items-center px-4 text-xl py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white"> <i class="gg-profile icon-normal"></i> </a> </li> <li> <a href="#wallet" title="Wallet: 0.00 EUR" class="h-full flex items-center font-semibold px-4 text-xl py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white">
+                    €
+                </a> </li> <li> <a href="/help" title="Help / Support" class="h-full flex items-center px-4 text-xl py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white"> <i class="gg-support icon-small"></i> </a> </li> <li> <a href="/settings" title="Settings" class="h-full flex items-center px-4 py-1 sm:py-0 h-full flex items-center hover:text-white px-3 transition-colors duration-200text-white"> <i class="gg-options"></i> </a> </li> <li class="ml-4"> <a href="/logout" title="Logout" class="h-full flex items-center pl-4 text-xl py-1 sm:py-0 h-full flex items-center hover:text-red-500 px-3 transition-colors duration-200 "> <i class="gg-log-off"></i> </a> </li> </ul> </div> </header> <main> <span class="leading-tight font-mono font-bold text-xs text-gray-600">
+        Joined 15.12.2022 · Posts: 0 · Comments: 0  · ArcheWiki edits: 0
+    </span> <div class="flex md:items-center flex-col md:flex-row"> <div class="flex"> <h1 class="text-white text-4xl font-light leading-tight mr-4">
+                theillusiveman
+            </h1> <div class="flex items-center mt-1"> <div class="w-1 h-1 rounded-full bg-red-500 mr-1"></div> <span class="text-xss font-bold text-gray-500">More than 3 days ago</span> </div> </div> <div class="md:ml-auto flex items-center ml-1 mt-4 md:ml-0 md:mt-0"> <div class="mr-6"> <a href="#" title="Add to favorites"> <iframe style="border:none; width: 25px; height: 25px; align-self: center;" srcdoc='<meta charset="utf-8"><link rel="stylesheet" type="text/css" href="/assets/css/main.css"><a style="all:initial;color: #b3b3b3; cursor:pointer; align-self: center;" href="/heart/theillusiveman" title="Add to favorites"><i class="gg-heart text-gray-500 hover:text-red-500 mt-1 ml-2"></i></a>'></iframe> </a> </div> <div> <a href="#report-user" title="Report user"> <i style="width: 25px; height: 25px;" class="gg-flag-alt text-gray-500 hover:text-gray-100 icon-normal"></i> </a> </div> <div id="report-user" class="fixed target-flex target-child-flex hidden bg-black bg-opacity-75 top-0 z-20 bottom-0 left-0 right-0 max-h-screen overflow-y-auto"> <div class="w-11/12 sm:w-10/12 md:w-7/12 lg:w-5/12 xl:w-1/3 ml-auto mr-auto py-24 hidden flex-col"> <div class="w-full bg-gray-800 rounded-t-lg p-8"> <div class="grid grid-cols-8 gap-6"> <div class="col-span-8 sm:col-span-1"> <div class="rounded-full w-10 h-10 bg-gray-700 flex items-center justify-center"> <i class="gg-support text-gray-500"></i> </div> </div> <div class="col-span-8 sm:col-span-7"> <form method="POST" action="/support/new"> <h4 class="text-gray-400 text-lg">Report theillusiveman</h4> <p class="text-gray-500 text-sm mt-4 leading-relaxed">Thanks for reporting this user, please let us know why you report it, in a short sentence.</p> <div class="mt-6"> <label class="flex items-center" for="message"> <i class="gg-comment icon-smaller mr-2 text-gray-600 -mt-1"></i> <span class="text-gray-400 text-sm">Reason</span> </label> <input type="text" id="subject" name="title" class="hidden" value="Report: theillusiveman"> <textarea id="message" name="message" class="bg-gray-700 rounded-md shadow-md text-gray-400 text-sm font-mono overflow-y-auto p-5 w-full mt-2" rows="8"></textarea> </div> <div class="mt-6 flex items-center flex-col"> <input type="hidden" name="csrf_token" value="lyra642aa1dc9a4e62.20453313"> <input type='hidden' name='LyraLove' value='N9lwyNDntwm3btWp98ESN61Jei2z7WFN4J35H9JHq04fP7M4YnbxZpjSPLhKfTcSl9dfWzObjl48nk2mfSD8K6n74Uo1sxbUiuFXipRm9oRcR3Ub8rriP8GB1iIj/H4g'> <input type='image' name='captcha' src='data:image/webp;base64,UklGRrAEAABXRUJQVlA4WAoAAAAQAAAAYgEAUgAAQUxQSKYDAAABDzD/ERGC2v3/atvmJ+keSU5yTmSHbllJPCZljM5VwFU4D7tHk2FM2R4W3JsyM4y3l9A3sHNU5tYvYMy8lQNjwZU1fBjR/wmAfwrBpgyAAQwM/rQEAByCW6RIiGLEoyqJki9emp26cCE3VVn+0ZeLKxVv+1il1EBLK7qN7244sXrRj/cdezjXGGbcuW3OvLuK5rEjZnm455j3ypKeIjE60yUrmz3Buzqz+WJRCaP3klRdxjbXrbKecw6vY+PjhwN6zbtvdbjZdWu+x5bC9GaSkjMrzVW/Gjc6k6tY9bHJq+qB+9K223qjw830Uy+qKwUuNknmKjlonE3uUw/cnbZZJujph6UIdc0kNTcjsEd+pzlts6YA5yY3gjqvlaTqMoq5SrVudQ6vYlV2+A3lo/lp2+u61eFm15kHepSwLekMmZNqKpqrjphZp2eVt2FJT4Pi0rTN28vDPN1+xCoWw6Z+aiLTF5pyH61a/tENTmWVt32soncy+pLNPz4+xhd9vN7K5dpD/DqETQDgiDkGy+clxvBNhHzUKFDr++9PlOolSuFShJ+lWnEJSgRNq8nPEjxADfNAa6JpYAAJc2HVwgOFCehhFtxauLAEKLzYfpZgwYUF0DAdPDZNA4UHAzDCCCDF5IFCB0+KCwsEkKKpgBKTBTcGGZBjovCgAkpCdHDIgGwBNAEEkHwmoP/dqIAiA2AACVMBJSYZkH0eoIYRQKqBCoBLUBJCAEDhUpgOjlqpHsIpvFrovvvvj2DBjUsFFAoGfNQYwYUVFwEkCy6ie6C1cGEJQNPi0sHhgYr8LMVF4QGaJhK/BRf4WUqKCwsJ9kCTBE1L1M+SCANvFPvp0hAPCJWjeFSMUghEZGBGYnIfHN8+JtYwhzo/R+nuvnhJ8ZXyZ16hVOiV6SnnWJT2UuZO1WcXT4wbulCVzhlYFYEXeufeS3ysg1UXNQhNQBmKxOy65oBKBxuHKuRCHoyn1ycLTeh1MdkdThWSUFWkYM9tDSj0DO94ReyVOfOGjkVAu53JBFQOLd5xvluo4cKFgZ8jyN32xaaA/9CyEAdgimVAQICsgBPAOsSMIFOABSCGpVMffPnh+levVKJ99fH09PJXHv1RE8psKZfL5NVsPppjzTub3zFQJGI6yfbh1WyPgFG3luwY6Ihh4sgNa5R3hX6qX3t/dSgOr5wl6pdChr7WnRiNY0v2+jJ5QsjSt+bdfAwvT/18w3vaE58JnPi4fnq5m79d7P9zVlA4IOQAAAAwEACdASpjAVMAP/3+/3+/v7WyKVJra/A/iWlu3/yGEa4/QDPAK//zQH4pc5oxbodf+eanFWQelzOwcZE4lyIWk6FuuGDWSpsdpWXucFJa+7NUAX28QN+WSIrRuhJNhy0FKLOgeNY8I/GugGjwYjW/qAvK5fquiKi35FEt1w0X1AOqxjwZFSJjuoAA/uWH7zwrZnXMvQP6nDozK1lUZrNISz3gT66YoDrcpULBAy6xCY7iMpp31kQT/q9PzQkIlT87M8JuJQ8U77x2Ff88cJi2ZXndzVSWsYBrtFTPVnMvRAAAAAA=' title='Please make sure that the onion matches with the one in your browser navigation bar'> <label class="flex items-center mt-3" for="login-capture"> <i class="gg-bulb mr-2 text-gray-600 icon-smaller mb-1"></i> <span class="text-gray-500 text-xs">Click the circle with a cut to continue.</span> </label> </div> </form> </div> </div> </div> <footer class="w-full bg-gray-900 rounded-b-lg p-4"> <div class="flex items-center flex-col sm:flex-row sm:justify-end"> <a href="#"> <button type="button" class="rounded-md shadow-md px-5 text-sm text-gray-500 h-10 border-gray-800 border-opacity-50 border-2 hover:bg-indigo-400 hover:text-white transition-colors duration-200">
+                                Close
+                            </button> </a> </div> </footer> </div> </div> </div> </div> <div class="flex mt-6 md:mt-4"> <div class="rounded-full bg-gray-900 flex items-center justify-center pl-1 pr-2 py-2px mr-3"> <i class="gg-smile-mouth-open text-indigo-400 mr-1  icon-smaller ml-1"></i> <span class="text-xss text-gray-400">Vendor</span> </div> </div> <div class="grid grid-cols-12 md:gap-12 mt-2"> <div class="col-span-12 md:col-span-7 lg:col-span-8 xl:col-span-9"> <div class="tabbed-content"> <input name="tab" id="listings" class="tab-input" checked type="radio"> <div class="flex flex-col tab-content"> <div class=" mt-2 flex"> <ul class="flex items-center text-sm text-gray-600"> <label for="listings" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class="text-white">Listings</span> </li> </label> <label for="feedback" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Feedback</span> </li> </label> <label for="terms" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Terms and Conditions</span> </li> </label> <label for="about" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">About theillusiveman</span> </li> </label> <label for="posts" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Posts</span> </li> </label> </ul> </div> <div class="mt-4"> <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4"> <div class="col-span-1" > <div class="bg-gray-700 rounded-md shadow-md"> <div class="p-2"> <a href="/listing/RzVSdFpMWTJ2R0Y1UkFKRlFxVmpjQT09"> <div class="rounded-md overflow-hidden bg-gray-800 bg-cover w-auto h-72 flex items-center justify-center p-3" style="background-image: url('/image/NUt0WnVCYVRsTUc0RGEwN2ZKLzcvZz09')"> </div> </a> </div> <div class="p-4 pb-3 pt-0 "> <div class="flex"> <ul class='flex flex-wrap items-center leading-tight'> <li> <a href='?category=40' class='font-bold text-xs text-gray-400 hover:text-white'>Ecstasy</a> </li> <li> <i class='gg-chevron-right px-1 icon-mini text-gray-500'></i> </li> <li> <a href='?category=430' class='font-bold text-xs text-gray-400 hover:text-white'>Pills</a> </li> </ul> </div> <h4 class="text-white leading-tight mt-1"> <a href="/listing/RzVSdFpMWTJ2R0Y1UkFKRlFxVmpjQT09">XTC BLUE MOONS 180mg ecstasy pills mdma molly X</a> </h4> <div class="mt-2 text-xs flex items-center justify-between"> <div class="flex flex-col"> <a href="/u/theillusiveman" class="flex items-center"> <i class="gg-profile icon-small text-gray-500 mr-2"></i> <span class="text-gray-400">theillusiveman</span> </a> </div> <div class="flex flex-col"> <a href="#listing-types" class="flex items-center"> <i class="gg-info icon-smaller text-gray-500 mr-1"></i> <span class="text-gray-400">Escrow </span> </a> </div> </div> <div class="flex items-center justify-between mt-1"> <div class="flex flex-col"> <span class="font-bold text-xss text-gray-600">Source</span> <span class="text-sm text-gray-400">United States of America</span> </div> <div class="flex flex-col text-right"> <span class="font-bold text-xss text-gray-600">Ships to</span> <span class="text-sm text-gray-400">Worldwide</span> </div> </div> <div class="flex items-center mt-2 ml-2 mr-2"> <div class="flex mb-2" title="Rating: 1.00"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> <div class="ml-auto"> <a href="#" title="Add to favorites"> <iframe style="border:none; width: 25px; height: 25px; align-self: center;" srcdoc='<meta charset="utf-8"><link rel="stylesheet" type="text/css" href="/assets/css/main.css"><a style="all:initial;color: #b3b3b3; cursor:pointer; align-self: center;" href="/heart/RzVSdFpMWTJ2R0Y1UkFKRlFxVmpjQT09" title="Add to favorites"><i class="gg-heart text-gray-500 hover:text-red-500 mt-1 ml-2"></i></a>'></iframe> </a> </div> </div> </div> <a href="/listing/RzVSdFpMWTJ2R0Y1UkFKRlFxVmpjQT09"> <footer class="rounded-b-md bg-gray-800 flex"> <div class="w-1/2 flex justify-center items-center py-2 border-r border-gray-700 border-opacity-50"> <span class="text-gray-300 text-sm">1 pill </span> </div> <div class="w-1/2 flex justify-center items-center py-2 border-l border-gray-700 border-opacity-50"> <span class="text-gray-300 text-sm"> 7 </span> <span class="font-bold text-sm text-gray-600 ml-2">€</span> </div> </footer> </a> </div> </div> <div class="col-span-1" > <div class="bg-gray-700 rounded-md shadow-md"> <div class="p-2"> <a href="/listing/NFl0U1hJa0dGUDRoWkVFOGtRRGV6Zz09"> <div class="rounded-md overflow-hidden bg-gray-800 bg-cover w-auto h-72 flex items-center justify-center p-3" style="background-image: url('/image/Q2lxUWxOWFQrbERyTnhTWjdudzlDQT09')"> </div> </a> </div> <div class="p-4 pb-3 pt-0 "> <div class="flex"> <ul class='flex flex-wrap items-center leading-tight'> <li> <a href='?category=30' class='font-bold text-xs text-gray-400 hover:text-white'>Stimulants</a> </li> <li> <i class='gg-chevron-right px-1 icon-mini text-gray-500'></i> </li> <li> <a href='?category=410' class='font-bold text-xs text-gray-400 hover:text-white'>Pills</a> </li> </ul> </div> <h4 class="text-white leading-tight mt-1"> <a href="/listing/NFl0U1hJa0dGUDRoWkVFOGtRRGV6Zz09">Adderall 30mg press best B974 made with real amphetamine</a> </h4> <div class="mt-2 text-xs flex items-center justify-between"> <div class="flex flex-col"> <a href="/u/theillusiveman" class="flex items-center"> <i class="gg-profile icon-small text-gray-500 mr-2"></i> <span class="text-gray-400">theillusiveman</span> </a> </div> <div class="flex flex-col"> <a href="#listing-types" class="flex items-center"> <i class="gg-info icon-smaller text-gray-500 mr-1"></i> <span class="text-gray-400">Escrow </span> </a> </div> </div> <div class="flex items-center justify-between mt-1"> <div class="flex flex-col"> <span class="font-bold text-xss text-gray-600">Source</span> <span class="text-sm text-gray-400">United States of America</span> </div> <div class="flex flex-col text-right"> <span class="font-bold text-xss text-gray-600">Ships to</span> <span class="text-sm text-gray-400">North America</span> </div> </div> <div class="flex items-center mt-2 ml-2 mr-2"> <div class="flex mb-2" title="Rating: 4.75"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> <div class="ml-auto"> <a href="#" title="Add to favorites"> <iframe style="border:none; width: 25px; height: 25px; align-self: center;" srcdoc='<meta charset="utf-8"><link rel="stylesheet" type="text/css" href="/assets/css/main.css"><a style="all:initial;color: #b3b3b3; cursor:pointer; align-self: center;" href="/heart/NFl0U1hJa0dGUDRoWkVFOGtRRGV6Zz09" title="Add to favorites"><i class="gg-heart text-gray-500 hover:text-red-500 mt-1 ml-2"></i></a>'></iframe> </a> </div> </div> </div> <a href="/listing/NFl0U1hJa0dGUDRoWkVFOGtRRGV6Zz09"> <footer class="rounded-b-md bg-gray-800 flex"> <div class="w-1/2 flex justify-center items-center py-2 border-r border-gray-700 border-opacity-50"> <span class="text-gray-300 text-sm">5 pills - 300 pills</span> </div> <div class="w-1/2 flex justify-center items-center py-2 border-l border-gray-700 border-opacity-50"> <span class="text-gray-300 text-sm"> 21 - 621</span> <span class="font-bold text-sm text-gray-600 ml-2">€</span> </div> </footer> </a> </div> </div> </div> <a href="/store/theillusiveman" title="Browser all listings offered by theillusiveman" class="mt-2"> <button type="button" class="w-full rounded-lg shadow-md bg-indigo-400 text-white px-6 text-blue-200 h-12 mt-10">
+                                    Browse all listings
+                                </button> </a> </div> </div> <input name="tab" id="feedback" class="tab-input" type="radio"> <div class="flex flex-col tab-content"> <div class=" mt-2 flex"> <ul class="flex items-center text-sm text-gray-600"> <label for="listings" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Listings</span> </li> </label> <label for="feedback" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" text-white">Feedback</span> </li> </label> <label for="terms" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Terms and Conditions</span> </li> </label> <label for="about" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">About theillusiveman</span> </li> </label> <label for="posts" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Posts</span> </li> </label> </ul> </div> <div class="mt-4"> <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-x-4 gap-y-8"> <div class="col-span-1"> <div class="rounded-md shadow-md pt-5 px-6 bg-gray-800 flex flex-col"> <div class="flex w-full"> <div class="rounded-t-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Quality</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="bg-gray-850 flex items-center justify-center p-2 w-full border-t-2 border-b-2 border-gray-800 border-opacity-50 flex-wrap"> <span class="text-xs text-gray-500 font-bold">Stealth</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="rounded-b-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Communication</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <p class="text-xs text-gray-400 text-center leading-relaxed mt-5"> <span class="text-lg font-bold text-gray-600 leading-none">&ldquo;</span>
+                                            Not bad
+                                            <span class="text-lg font-bold text-gray-600 leading-none">&rdquo;</span> </p> <div class="mt-3 mb-3 flex items-center mx-auto"> <i class="gg-time mr-2 text-gray-600 icon-smaller"></i> <span class="text-xs text-gray-500">16.03.2023</span> </div> </div> </div> <div class="col-span-1"> <div class="rounded-md shadow-md pt-5 px-6 bg-gray-800 flex flex-col"> <div class="flex w-full"> <div class="rounded-t-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Quality</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="bg-gray-850 flex items-center justify-center p-2 w-full border-t-2 border-b-2 border-gray-800 border-opacity-50 flex-wrap"> <span class="text-xs text-gray-500 font-bold">Stealth</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="rounded-b-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Communication</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> </div> </div> <p class="text-xs text-gray-400 text-center leading-relaxed mt-5"> <span class="text-lg font-bold text-gray-600 leading-none">&ldquo;</span>
+                                            UPDATE: Sorry for the delay. Tested positive for METH on all 3 reagent tests. DO NOT ORDER.&#13;&#10;&#13;&#10;Very quick ship and receive. Unable to test due to expired reagents but more on the way. I will update if tests are bad at all. If this isn&#39;t updated then they are good to go.
+                                            <span class="text-lg font-bold text-gray-600 leading-none">&rdquo;</span> </p> <div class="mt-3 mb-3 flex items-center mx-auto"> <i class="gg-time mr-2 text-gray-600 icon-smaller"></i> <span class="text-xs text-gray-500">15.03.2023</span> </div> </div> </div> <div class="col-span-1"> <div class="rounded-md shadow-md pt-5 px-6 bg-gray-800 flex flex-col"> <div class="flex w-full"> <div class="rounded-t-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Quality</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="bg-gray-850 flex items-center justify-center p-2 w-full border-t-2 border-b-2 border-gray-800 border-opacity-50 flex-wrap"> <span class="text-xs text-gray-500 font-bold">Stealth</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="rounded-b-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Communication</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <p class="text-xs text-gray-400 text-center leading-relaxed mt-5"> <span class="text-lg font-bold text-gray-600 leading-none">&ldquo;</span>
+                                            Showed up fast, not sure about the no meth claim but if it&#39;s true, maybe I&#39;d rather have the other fake lines since been falling sleep in these. ymmv
+                                            <span class="text-lg font-bold text-gray-600 leading-none">&rdquo;</span> </p> <div class="mt-3 mb-3 flex items-center mx-auto"> <i class="gg-time mr-2 text-gray-600 icon-smaller"></i> <span class="text-xs text-gray-500">03.03.2023</span> </div> </div> </div> <div class="col-span-1"> <div class="rounded-md shadow-md pt-5 px-6 bg-gray-800 flex flex-col"> <div class="flex w-full"> <div class="rounded-t-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Quality</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="bg-gray-850 flex items-center justify-center p-2 w-full border-t-2 border-b-2 border-gray-800 border-opacity-50 flex-wrap"> <span class="text-xs text-gray-500 font-bold">Stealth</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="rounded-b-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Communication</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> </div> </div> <p class="text-xs text-gray-400 text-center leading-relaxed mt-5"> <span class="text-lg font-bold text-gray-600 leading-none">&ldquo;</span>
+                                            Grat service
+                                            <span class="text-lg font-bold text-gray-600 leading-none">&rdquo;</span> </p> <div class="mt-3 mb-3 flex items-center mx-auto"> <i class="gg-time mr-2 text-gray-600 icon-smaller"></i> <span class="text-xs text-gray-500">14.03.2023</span> </div> </div> </div> <div class="col-span-1"> <div class="rounded-md shadow-md pt-5 px-6 bg-gray-800 flex flex-col"> <div class="flex w-full"> <div class="rounded-t-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Quality</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="bg-gray-850 flex items-center justify-center p-2 w-full border-t-2 border-b-2 border-gray-800 border-opacity-50 flex-wrap"> <span class="text-xs text-gray-500 font-bold">Stealth</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <div class="flex w-full"> <div class="rounded-b-md bg-gray-850 flex items-center justify-center p-2 w-full flex-wrap"> <span class="text-xs text-gray-500 font-bold">Communication</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3 flex-shrink-0"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1'></i> </div> </div> </div> <p class="text-xs text-gray-400 text-center leading-relaxed mt-5"> <span class="text-lg font-bold text-gray-600 leading-none">&ldquo;</span>
+                                            Got a couple extras thrown in so that was a nice bonus! Better pressed ingredients than most out there.
+                                            <span class="text-lg font-bold text-gray-600 leading-none">&rdquo;</span> </p> <div class="mt-3 mb-3 flex items-center mx-auto"> <i class="gg-time mr-2 text-gray-600 icon-smaller"></i> <span class="text-xs text-gray-500">27.02.2023</span> </div> </div> </div> </div> <a href="/feedback/theillusiveman" title="Check all ratings for theillusiveman" class="mt-2"> <button type="button" class="w-full rounded-lg shadow-md bg-indigo-400 bg-opacity-25 px-6 text-blue-200 h-12 mt-10">
+                                    Read all reviews
+                                </button> </a> </div> </div> <input name="tab" id="terms" class="tab-input" type="radio"> <div class="flex flex-col tab-content"> <div class=" mt-2 flex"> <ul class="flex items-center text-sm text-gray-600"> <label for="listings" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Listings</span> </li> </label> <label for="feedback" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Feedback</span> </li> </label> <label for="terms" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" text-white">Terms and Conditions</span> </li> </label> <label for="about" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">About theillusiveman</span> </li> </label> <label for="posts" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class="hover:text-white">Posts</span> </li> </label> </ul> </div> <div class="mt-4"> <div class='bg-gray-900 rounded-md shadow-md text-gray-500 text-sm font-mono overflow-y-auto p-6 w-full break-words whitespace-pre-line' >Honest vendor. best quality and value. WIll reship any fuck ups on my end</div> </div> </div> <input name="tab" id="about" class="tab-input" type="radio"> <div class="flex flex-col tab-content"> <div class=" mt-2 flex"> <ul class="flex items-center text-sm text-gray-600"> <label for="listings" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Listings</span> </li> </label> <label for="feedback" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Feedback</span> </li> </label> <label for="terms" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Terms and Conditions</span> </li> </label> <label for="about" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" text-white">About theillusiveman</span> </li> </label> <label for="posts" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class="hover:text-white">Posts</span> </li> </label> </ul> </div> <div class="mt-4"> <div class='bg-gray-900 rounded-md shadow-md text-gray-500 text-sm font-mono overflow-y-auto p-6 w-full break-words whitespace-pre-line' >Im the guy who sells the quality adderall you want for yourself, not the guy who sells that &#34;eASy fLip&#34; powdery trash addys, You buy 1000 from him for $100 to sell to chumps, You buy 100 of mine because you care about what goes into you body and you want the closest thing to an ADDERALL 30mg.&#10;&#10;&#10;Best adderall substitute on all the darkweb, best communication and best prices -performance ratio. Been vending for a few years now, multiple markets, always 98% positive feedback or better, and my presses are better than any of the competition, I started vending because I had tried addys from every reputable vendor available......and they all just sucked, nothing close to pharma grade. So I used my knowledge of chemistry, pharmacology, and business to create a press that was able to please someone who regularly takes adderall obtained via a proper doctor prescription and I now offer it to you.&#10;&#10;One of the few presses around that uses real amphetamine. Most press sellers cant get a good source of amphetamine, and arent smart enough to synth it themselves so they skip that ingredient. I do not skip out on the amphetamine. these are some of the best presses you will find on the dark web, I havent found better in my 10 years on here as a customer. I guarantee satisfaction, and I always try to do right by the customer.&#10;&#10;If your order is lost or seized I will reship, If you give me a bad address and it gets returned to sender, or stolen, Not much I can do. If you need packaging to be small enough to fit in a mailbox, just write that in shipping notes and I will use smaller envelope)))</div> </div> </div> <input name="tab" id="posts" class="tab-input" type="radio"> <div class="flex flex-col tab-content"> <div class=" mt-2 flex"> <ul class="flex items-center text-sm text-gray-600"> <label for="listings" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Listings</span> </li> </label> <label for="feedback" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Feedback</span> </li> </label> <label for="terms" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">Terms and Conditions</span> </li> </label> <label for="about" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class=" hover:text-white">About theillusiveman</span> </li> </label> <label for="posts" class=" hover:text-gray-400 p-1 flex cursor-pointer items-center mt-2"> <li> <span class="text-white">Posts</span> </li> </label> </ul> </div> <div class="mt-2"> <div class="min-w-full rounded-md mt-2"> <div class="min-w-full px-4 py-4 mx-auto bg-gray-900 rounded-lg shadow-md"> <a href="/forum" class="text-2xl font-bold text-gray-400 hover:underline break-all w-full items-center">No posts yet.</a> </div> </div> <a href="/forum/search?search_term=&username=theillusiveman" title="Search forum for theillusiveman" class="mt-2"> <button type="button" class="w-full rounded-lg shadow-md bg-indigo-400 bg-opacity-25 px-6 text-blue-200 h-12 mt-10">
+                                Show all posts by theillusiveman
+                            </button> </a> </div> </div> </div> </div> <div class="col-span-12 md:col-span-5 lg:col-span-4 xl:col-span-3 mt-6 md:mt-0"> <a href="/store/theillusiveman" title="Browser all listings offered by theillusiveman" class="mt-2"> <button type="button" class="w-full rounded-lg shadow-md bg-indigo-400 text-white px-6 text-blue-200 h-12 mt-2">
+                    Vendorstore
+                </button> </a> <a href="/message/theillusiveman" title="Contact theillusiveman" class="mt-2"> <button type="button" class="w-full rounded-lg shadow-md bg-indigo-400 bg-opacity-25 px-6 text-blue-200 h-12 mt-2">
+                        Send message
+                    </button> </a> <a href="/feedback/theillusiveman" title="Check all ratings for theillusiveman" class="mt-2"> <button type="button" class="w-full rounded-lg shadow-md bg-indigo-400 bg-opacity-25 px-6 text-blue-200 h-12 mt-2">
+                        Read all reviews
+                    </button> </a> <div class="md:mt-10 mb-5"> <div class="flex items-center mb-5"> <h2 class="font-bold text-gray-400 mr-3"> PGP Public Key</h2> <a href="/u/theillusiveman/pgp.txt" target="_blank" title="Open key in new tab" class="text-gray-600 hover:text-gray-300"> <i class="gg-external icon-mini"></i> </a> </div> <textarea class="bg-gray-800 rounded-md shadow-md text-gray-500 text-xs font-mono overflow-y-auto p-3 w-full" rows="7" readonly>-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: Username: dococ777 &lt;dococ777@kitties.com&gt;
+Comment: Fingerprint: 3FA0D7CC906ED52B97B03D5AD950ED214B87AB2A
+Comment: Last change: 2023-02-09
+
+
+
+mQGNBF+rv2EBDADKNmHzpF20FVvkunCaUkCJuqLhRUaKg6YKJq5fjRzfgu9U9r9N
+WZVeXE6dXsV1FZLgZdRV1SEyvVwdjgjrD0Jci66GyXIxYxN10zrXT7yFhhuUicxa
+Ggv88CDz1I+puG37gR0CHobdTSQ6FyrrKrp6AQxN3E2q0bryiWJD51NVRstcpusz
+UY2je00F0YJQN+lWL+5RXwCRL+SvC/uBamFGaLEYwK3s8Ndcux5RYfEEMCByF92q
+0Sfv60r2v6Z1saNtENFZqdiH6AXF5nA5PLAIklJzPrtnVYI1MR4Sk9OuQslrRSEQ
+2RfmnmJvc8pyd+8/Lc4v5NVhND6tYFDPMBcpWaRYlWYnN4nXHxmYUI7T5Kna/UXR
+pAWUUaqmKi0EbrSpMgzugnNatfPFMPMuVc+UhNlKkeqJOmWT/S189eRiEXoXWpg+
+y+9ejOFWhZKXzHhoJGt5ySGbpe6exNw8UCcFdLfvhWXnFrPE51G6N2mQHYRvsWQO
+e7URxFc2vi8osKUAEQEAAbQfZG9jb2M3NzcgPGRvY29jNzc3QGtpdHRpZXMuY29t
+PokBzgQTAQgAOAIbAwULCQgHAgYVCgkICwIEFgIDAQIeAQIXgBYhBD+g18yQbtUr
+l7A9WtlQ7SFLh6sqBQJjc+vXAAoJENlQ7SFLh6sqbzQL/A7fxtDEoHsGmsb+/7Rl
+sVrumaGUl5jCo/B3EgI9C+56Y5IRAtgdL8mA3hJ+ahaeWba8hiN5VGzjS7A6ACqs
+MxLYK8vAnrAwImL/7WJhpb6wg6F0ZoAl7lTXL5dxXhV/pSP2jZlAYhh1eGveTBpN
+gkjv1YXCNIZeOSvtCSCnaAuXM8BHK8zDsZRtUtC4+TGJt8T7jNknOpjtFQoUNftq
+a0IjfQ5+ZcoM2nStm9EO/q6Up+RBcUC7RgOLT8JNPjiwRLFicc5ZG44UDEpWNNTz
+mkB9uW7jUB06tw6Q5W6whoXTNVo2v5VVwIZUy8x0O/5HUEsR55375Sl8PUFwulsK
+ZLFw6rrwA3JwTGlD1mEOhVDv+oyfLkwHk1NZtGhFAEF7ckZKJbmgISlVcf47i0QD
+WEATJ9vA5M+VKjGVDgQgFOTN/3IbwaYTjU8fHX6Rh6VMZEbbWYmtcsQQCaz9sp9J
+/U2FMDBJ2AH7AtMNbtecJLX3QLW8FpXp82+rcLEuq10PgIkBswQQAQgAHRYhBMo7
+Ru486HwI/LlF6dgE/+qyQto2BQJjc837AAoJENgE/+qyQto2j50L/RflpsHOuh9V
+YlnhbI41AdP5xNjiFLkgu3sbmvELPVkjzgd/p71f/GghFbOHdotlD3bnHTSNc+qp
+cNFCuAcQ9hP/j81qM3E0o+4xzmDyNoK46UDMseA9G7ibIdCiWino9kjiaNs2A8af
+4Kj4E8Pe5xn+sGEvCP/+r4INd3H66f+2CxPpoIkn5NZOfTYaKm6qe50/wOIcDlSd
+sDcQQS8vB0g4v+NpUR+CJJ4zFYWo3/suzqTxXdZPv1xh+fpJtXTQJldQTg/WXXtL
+A5Y/rr5Uq1sTL+9WZkkI4+XmaOb60h7tVC9xaN/Fc+vUrXaTRIFTPIpCV4MP12P+
+YOwcddgS1sPynavw7Gn3GvOQIiJr3daHpRVwVbkrR6mFTSVmdRrQa2FwOxlEXQLT
+WvHZaP+x4hIJY6OX2UQtKUB8Rq0Z/cU+4Ev07wLUxo/e6G5nm5v4yfTJRGu8rpkJ
+HXcoalRqM/7hBDTQJerfvuwNGjGxa/PjKSidwvrvjcSJdNqNcanIC4kBswQQAQgA
+HRYhBMo7Ru486HwI/LlF6dgE/+qyQto2BQJjc849AAoJENgE/+qyQto2fMUL/3jq
+T271EK5aAcrw8jQHAMiOeXPyXoRM+RDkZgmVnbTME7th0AZ7PZnQNvlWb4yRwlco
+jS0p1mpGlR1g+42CYQtkaGK4YV2fA/CYW6MLHBJR7ehOGls39Fp/gwuHtleZR0Jr
+BUuVJA6Vsm9Au3Jm9YD0WCk6AgzLPja0PeFITND3TESh0UWPo9kPEX/QV9A17LfG
+m8sMA3Id2liW9VC2j1Ezw9bugKoUFa9V0AjDLoUpdA/aTGxDceHLjaUQ2MHLFMxi
+VCUUDkW33wvbfvtT5xrHb1EeDbGE2SUrs4xlCyA7935GgJHRI063Gyd4bxucWbxC
++JUfvuE+1vw+1CoTl6mBtxWgUpCJ4Pokk31NZP9NstfzRHOWk37ToQMduizmQqqU
+kvYpM10uZlNJKD14EaMhaixPCdNpDYZ5OM7Sf9V2x5bF6f77IFg8kJ+fRBfSXuwG
+Q6lYvT64sdRU8kmYq5NMhCz7wZeLjYRZ9UTpq7Bp3TMDKBtB7qCqHw1hehmhf4kB
+swQQAQgAHRYhBMo7Ru486HwI/LlF6dgE/+qyQto2BQJjc9yWAAoJENgE/+qyQto2
+FfYL/1zEJ0yBK2SCiQsCqYVljZrqiq237tsjDJBpdD/DicFjBn/1zu6p1ja4SFC5
+ixFBS6qDCSSvd24G5XRQs7T3aOfi7OEvlle0XoS0CpkVzfJXp3h2mQg3ohxwz/eF
+4nrLnKF42F/dc1DQe7ogoU8dOCNiDJXHLoVnjyXxCktnRSIodkGP7Kf1Enrxmkyl
+JKc1AeN4OaZutTt/5tT6VAiKcX843cn+Bxb8K73D//Q8LbLh5F3zBNnApgV32RnE
+iZIzKNlFpNW66sS4W8ZGOMIS8DG7AXXGT0l1ED4mWS8aiMpkJOBOL6gpx/dDycQv
+/BQV6RHTrbyAPDE2QCQ0wGQSJehEis31CqmlbO6SGKyDArpVt2FTRTOpjBlWYPXK
+Y5AsePENEHi4Ee3F9otFZBvHSlC7g9jGepOQmTFLe38NHCKQ4nMcLyz7VCH1RUzp
+JsteWUhkcAKzVtoOzE0h5NnLDIsBQFsg9Mdxb76WLuqJt0tkPj2glrepw2jyQ2PX
+kq2Z0YkBswQQAQgAHRYhBMo7Ru486HwI/LlF6dgE/+qyQto2BQJjc90PAAoJENgE
+/+qyQto2VPoMAIkVFegJuJy6vvQrZagc3OGuVcetyQf5QMUv32GfAQP28/qFw0i1
+FIP80l++LlzR7fU614XV2jbfj1tNVRaEXu7OqVcY1WaK0AWZnkN3TBC9Mls5w+M8
+ZWP/dK6Ax4CyAJtx47dH7I4x5Nx0MRC8KD9t+8tM8VuDZlJZMM4YT2Y84apsTVbl
+MdHG+MI4F7WmzBOO+k/zyunOPvAjTr7fbTzzjPoRzwmBFnWQruBCIc+bs16laEvE
+pP8pBGxmVIi/C/b072ax6srRgOp4fQPDb/zKucIL8GK0Lm8AkZWF6bb4LrLIuYvY
+dddra+YXpBt7ufJTAjA4Njuq6tZXt3+PBN5g9uFK9/KPk5E1FMRx/SrT+S4Z7snh
+QGr8yJ6ny4vZ5DtdUR11pBXjRJhQA4KcIu5DDUYDeiZUWZi2CIXAVn5yYaTPyuKy
+g+a5msbTofWex/EQpsyCoaMXXASAmfiKiXgK7Vah2CLSo5g/L6TGeE6cmLmZQfUY
+vNMWcfJaH4A+kIkBswQQAQgAHRYhBMo7Ru486HwI/LlF6dgE/+qyQto2BQJjc91d
+AAoJENgE/+qyQto2aEEL/i95kaZ1rg2/T9Gwft4gPX3b1pFwvWX1yniepa14pX/j
+mR1EkHsn8ADJQG0s7ApXL7Q8kqdqg1EKjN9qkbG8kSX2gnWg1JZ2VTM7MZcjuMBu
+d2bl3VIuSbXCYUWNa+Lds2lzO5iRTp73JMwM9u0oR0IQTxZMRKw3rqNprGJAq7ag
+J4+KEZpa4Piv+kaGiAyXw3EcI93P7vxxr0Ok04kt6T+GCFOtBYsMUh5oh7BZXfbu
+mzsLCNWWtSSIhjKWdtJskg6js2vibMf/p9X97Etkba1/mMenz+H1BEEcGzqPPWQB
+yfacuMvsdoIhvhKNAHaw6pbJoDgBMSnaZVV/d4TLX8nViv8oRt0huJfED1/jcF5m
+4ipXAB3hzZi3/TP5tID4Z5aYzLnM8XHGEKPHrlpKwxXNLjzZIJS0RqPrPQQHPkUm
+UF3myVWldwqZfpcU9PSYSuhgkcmoBaoIHYD21xNxWbFx+q50LyNEjygfdqBAlrFf
+pN+/yWFblouvieR47bcFYYkB0gQQAQgAPBYhBMo7Ru486HwI/LlF6dgE/+qyQto2
+BQJjc93qAwUBeBqGPFtePl0rW0AuXWtpdHRpZXNcLmNvbT4kAAAKCRDYBP/qskLa
+NsQwDACI0Jo33jaX0SAtBboJiY9KllTwdmWVKamWRjTrLkMnlkIL+h2WdIl4NlXQ
+xX95x3irVpyfMrmchr6A/Y2pqtOf8IhSdagEd1F5Dc10Taav12ugz0E5+4Fslw5f
+XBFf0qUpCOiutN2bMPad6BBPyroG/215u8CbSRJkjcL2JI5nC0Lnnse6EIDNb+L8
+GQ8rdA5nUc9D6BWt31cVZvaAlSMVhV94jKU/IEzwoCAcPb2dMwSKE91fo8xGftBa
+IWDPdk7dZ7vgTB/ohlKvMW/U+BpsxZou1lbtCWBTmkcz82wpMxG7YhQVdKejgU3l
+3mVwoIc5hqYM6KT2aeQojiVXIEE6BjKTYcLz7h1bPtHg3a5/tf8C5jeTu+nxIHdu
+cz76JrL/LBodhFCdANYAjNzEme/KD3dmgJ59wJNIonPI7NkWhw4i31vlXRSo9MF8
+snsMlw5XEVkOId2YrmpSggvPzCKxRu1MPTGx0fzLD38zuoLf/4t2tGSD8raEsUiX
+U4SdvA+JAbMEEAEIAB0WIQTKO0buPOh8CPy5RenYBP/qskLaNgUCY3PfDQAKCRDY
+BP/qskLaNjtEC/9cTd5XmxvfLWGFae9szKrS8G2Msr3XHwfyg7Hv7XxIYGFiK9cb
+j10RNk+/L258WH4lu5Or4YlHZaBfFcoBT+BiV/vfdwXE94tear7kJPkQoSwZ8fp9
+hiaRO5JlL31eGDjPgzGCqujid4Zy7KQj1vfya6gcSjFBR1QDaxsFuJj2jiiOeLaQ
+B3cQpntOI+VdKEwZYBYf5Xq5IsXg0TBETq5AEjQ9/sCL5CD2PSlD78171TzB5nOj
+fxvRIkDueqB8FRxVWAWH+a57UdZ06eqMxcZ3ZVY0RxU23OiRD8LkPghl8tANmYKc
+4WDPpFylfkyc3SQDQeSdXAENf6CRyKtfI1zN3tAVBPaGSg8qG3XUjVuMIoqmJ12D
+ZU1IvSKmbdglMDoKLvX9qY4w6McRzHy8GqppqK9aSh/aay9t034VmMwmn0UuBS3l
+23K78SjNpShoeotR2OkDRdGl/AGOTIi6F/CFK74z6RmE/3/oqlgYj5P+bd/hn8FU
+UX8X4UhWWycbNvCJAbMEEAEIAB0WIQTKO0buPOh8CPy5RenYBP/qskLaNgUCY3Pf
+/QAKCRDYBP/qskLaNjrpC/9I6Y8doGTcja9iFHf4AseTqcAF7NwvH97PIJSWn18C
+2wd9Bn90dmAzyioE9J/+Y5RJp8yy0Wq3dl2TTBexqbQvX/e0kz7eFasxVf2bpsEe
+1xw6HMW21WEMNExDjBE8ONxsRJimCwhH7J2yFAOPFxFJJ72CnWmJI8MxVvZd4LfA
+CJlYmyH0jYbOjzUoE8PbQR2CXLikWaK4TGrcK0WMJDRdWzfHfWnd5fRiAz3U2bb8
+87HxeaNFf5CPq7umkIW3UusvRFJ38EhUB8S+fLfQKw4V4IQUabHu1RC2RJ3655ui
+FLxThe85V4ThZuihg3PYlw7Jgss2Id9NnhClRQv2avF166I5Abv7c3kZk9zgcCDd
+jF8c2eIdfu5bHBhnRY2AD5ljVWZypQEm6OmBWn2AvpOnfGLCUHJRPgnLaK0Y5whX
+e2hN9fbrBtqEht2pQ44XgPss5eimrV52RebEZ7XJrIX7LpOifcS46/dpc+r8R6Va
+wb5i4MkKst0ADtwa6MQ/jmuJAbMEEAEIAB0WIQTKO0buPOh8CPy5RenYBP/qskLa
+NgUCY3PgwwAKCRDYBP/qskLaNpt3C/9l/00djbGuepgBOMsocCQTo+axsNLWt0+O
+vMDIY/+QdgvdqIBMYzSbytwrUL1+onLTr/2R4dXCFgzOx3VztIQMgF8Hhxajq5aV
+8lDOM6Kb0hsDAXVf5szWmA1ifUnycYPswkNtDsDAO8fqI2PvIJH9DRys7Il+WeP6
+EC6cI4/paZcj2uAKNNUelwc98XuzrNW9yc7x+a4+RLMFWCh9XjCx63QQb3PL1iRw
+wlaTvpxDIxHFhog40s1oZSV7yO8JA4blciMIr5WNvfBE/1bw/jLCnekK0gFR10+r
+skeg0aXgmkEExMZ9pnTblOt2y/t9iUA0e8VnGKBmBWeqUeRVIQ68B+5gmiBon7xj
+ERn05I7/0g4swNrxm3jYH9AnPU+JKvBkO0UzdAlnfvCDQuds72Ttd8+k3ylONg5+
+hzmEtZHTVQGsJLd04tnImi1fIHDUWdpQeWNmmNbhT9vXWjWxEZaQGWgWI+NQ8ldI
+ooGIKKleM8+O3MwWNYRqpipwHGjSMmeJAbMEEAEIAB0WIQTKO0buPOh8CPy5RenY
+BP/qskLaNgUCY3PgzQAKCRDYBP/qskLaNiXyDACJW8g4VbfcZq7Q/6YHuThlxhuS
+V2dGHkbnvB+5+5EMajzQcybcS+NjdW4UqBARbR4Q6i/YbxSVyTxxvz8TDg1iq/dT
+pi9qqnQRwZvy+Yaq0dI9shbBvQ7TNwhP1EF+W/nwPyQY81rF0CSjORdMkiK1LESb
+pmaKIwVamMp6DlfST0Z2f0pJo+FpVgojSPLuUXZduWA/xGpP8/3oN1EFlNAigT5j
+jRM7DcZ6CoZc2W+QZXnhcyEfK4Ts7iMHEaD2HGI/10JfxFrYSGQoJqQmi4Sv/rmW
+IU8MeUuB25eTt1SmNOpFbvvSrfHxXefzqs5P1jkJ+gKafPzFHATVVkUzvZnb7pxn
+E84x91yBjjb0+UCqdGARk74KhQ5Y2/P2VhxqKm6+Ql/cXI60f4kgcWlTkjf/COfR
+wiEsMxvDKOWTYKk29hsDVOJ5ByV6ECZ75FCu6sjSGjYlEw8hIT/Mhrp060yLHDhB
+JDRd617IGdznNoQ0uJIIE8fwOLzu9SGomzochd+JAdQEEwEIAD4WIQQ/oNfMkG7V
+K5ewPVrZUO0hS4erKgUCX6u/YQIbAwUJA8LALwULCQgHAgYVCgkICwIEFgIDAQIe
+AQIXgAAKCRDZUO0hS4erKql6C/99orepsv2QpzKYGuoHA4ieOtqIOu1T+E+YQBEQ
+JohDg2KlVk5BOIoKdDPYkAngXk3LsC6rHFKL7NwRuV6VtyOg0ZjBHz5IkBqPJV5g
+X5WLtPMGpLkdTPOc7MpA98drd1RzvwLFSCVH3XJ8YjoL3HCgcRCwXGtt/nuT6KFJ
+qq7vj2alYK/AzxRMhmtyhreKA+CREz2Bs4cLrS5zxyhWpdgBQeK2eAzoY9vXdLBV
+AomRVq7xYxf7U/yD/1EP4MtYdDfpm1duYkUcjYv6GeZuyjggDuugD0i4qY3qEFzy
+4PiRy68znKLuSm4+dwv5PXtR0s44oBrtW70WAvcckohtN8ZRVn1jm7+ZnXqeAyuV
+LkI89wpKEJud7bEdC9+hzH5834ccH/1eCIcvOhfXw+jlR/grwioP6K5z8Rbe/NIS
+Nom/dRnpMQVVrOQk5PByUKmEvAuRWYll5PMOZgNhG+E34CRoXDRgfesNuE+DODUn
+Ok/fD3TcrrCF2mL/sRXOTXnAQA6JAbMEEAEIAB0WIQTKO0buPOh8CPy5RenYBP/q
+skLaNgUCY3Ph1wAKCRDYBP/qskLaNmfBC/9Hmn4AF0V3mGxLpDew9bVZr+hsOVKx
+0ay48LywtXmljXJk9TzBhkSvQ7hLv9k2FwV3KGjzEag6A9qUlRqdqUiF+ogG0n+a
+y1kZtehNwYLeiJMXx9kO7TOX3ahMFa+o7pduqKj++7IerSaIkBNWttbWF+k/oMnE
+QDj/XUdrXh0ve2FGsdlAhEVpxJMimHZjEA2/GZpflae9DRnfu6/SZU8IQl/Eny4L
+uIXkfUy65nyntekanaQCEYv1swR9ftqyB2uPocaL2NtgjOHqPLAVcmiHi4jedPoW
+Ai3L3wlI/SO86YqlfPJf4216BY9wbLjKImPj+dX2F80WFsBNjAimzaLAiXOGg+q5
+4xqjFK52qAo/zarVG8QReEf8sNK0HJ+92q3XF4xPVhNRkVB71UAj4ccqRQxkin2Z
+1a5A98ec2eZdR7c9ct/lJxDlGcnNwsWvrOtgUCEjh7qIMkSK51pTYMBonoj96skU
+GFr3hpr2pdnsGRwzfhuVclWM//5hiH5+M+SJAbMEEAEIAB0WIQTKO0buPOh8CPy5
+RenYBP/qskLaNgUCY3PjDQAKCRDYBP/qskLaNloeC/wNaNZ6GZzaX4q+46SvXpgv
+iTMpRcK88VfXKfFhrIh+Y8wyewJgRpHVRCNE6MR3lHuWV/+QQV1newKcRIF6wSA/
+tLXTXWdy36VJda+hGqbUefQW/ox2ksbqk6j6vjaMuziUhZyNkMew/gAlj9QDSTvi
+FZil+JKumaTnzyNZtXcVmpIbAC/aJN3GgZl9RQWusTQlL11v1Fz/3b/Ry3OpCtjK
+mcgZ+2aBT/EfS0tUSUYOCUSXs0ACBzv3qv6coGI+1YdUdM2Ja2EwDiuNFwT0dRAs
+C+ldAMVFNRyI5mx2JCXGnBU8U2Re/7u2PuDcaAgDDC2Ue4S+nQYKWBaGXg08pWU1
+mPBivUZqGAmeipp5iLtzYlQpP5zYHbIjbuxj9syIilcaHf+7rq4LlJJhmYF0sLyt
+6xaQFIbpG9lAWHSAZwZxnesZfx4/M6iy07V6DSATBRxIM38HI7YFFDlmNUUbgNow
+2Tvd066c6O+PBb6+BGmBcjn3UBXZ+u2uBttzYKAsyQOJAbMEEAEIAB0WIQTKO0bu
+POh8CPy5RenYBP/qskLaNgUCY3PmHAAKCRDYBP/qskLaNun4DACQjCpF8V8Cnplc
+ZHdI5+DQRIWqoGkUZVJbI7KD5GJhHSLqP328969HnTyWxGGGR6EAVAlsRJR7klnz
+0QgpcZpiLZ0ZFsn5k5+WxOhkvuf8xN5tagnUSEviquHya6VTrlaz3nKPwQ0N4kmb
+HZVXZXWVWIyDfm3LKJ2z1d9Bo4W70KqkF0MmixZKuwSn1IBpfIbPriUmVRYQoEor
+vyH8Mm2ExfqbBBWWcpPjfJblWB4nNIU9wUr9drTXNwCyhCmAx+nnT3H5AzNiD2jf
+5+8NE6BeJqD5pa3xPMMcFn2dMPOolR19Zdy3G7d30enuGGXtRhvzTGz/5EVk/8g5
+MwWk5pubQ1FzzbPTW8sPo2rvP4e2D60Mt8P5ttVdiX8y5ti3ALcjS+FSEq9FwZy0
+QaYbW5PDNIJTEwyT67uT7EV6a59UJXq2b+k1UPfNHw0zD7uuxZskmkhfi1WdwJQb
+nEgsjdqnKoJt/cbT3HijWy8VpssaWfSDqdBCMhtHXa8XIBmI+F6JAbMEEAEIAB0W
+IQTKO0buPOh8CPy5RenYBP/qskLaNgUCY3PmogAKCRDYBP/qskLaNgp3C/9CNSJp
+cPR1PwM7riW4HczBVcaYRNdrJdwI8L+LEUQlqUgvlUWUBM4cEf76qb7evom9eKtC
+XtIqFDqPk+Fe3AycfOBgchf2WTO74ZL098RlJKhqz5QcIZSyqBVEJtUo9cgrUSmv
+wrhIEzS9VAZyVW/3YiGCJfC3DVhWpA2vCZKhzB/7MmQu55An1HvNik4W8ejci4xK
+JwpDEMGe7fcAOM1ygoE+YOEWTw3IklN/CZ8IlAF42cepV/hrjaSTyL+krNKxbfZe
+6OqYj/630YbtJQcEormw4P0P5O+N2k55HnNbrGCGUVozgr1TKWD3Un3145kGDpPR
+1ddlA/SSQwdtrz3qVjFICyLQtHqGaSwiIWT+VyxSIRH/xqTwJVfdnJSmZQuqhjdg
+YeAMpy9lpV54hLXPmRdUac7betb6p9SdCOA/f6rUzmXz7sYwd31wVwZKE/HycJSI
+Kr/06tQvgINBd5/1FL/Q8a6dYJTp4cNSsO9ZMAvsxfjSb/Py0UApE1ahVy+JAbME
+EAEIAB0WIQTKO0buPOh8CPy5RenYBP/qskLaNgUCY3Pm4QAKCRDYBP/qskLaNiA+
+C/0Suoxl265ql8NA2riFCgLi3BQcu9D2G08wgelIML53hsvSq0Cgqv42wSfJGGx3
+0Xx6+dr5n1wzAIUVTdbst/Ub0EkxDupSrmCpO0Mwtxps5NAaTHP0OfZ2Kx1uCFf8
+HdSugOje65lGMzjg7XjHvb21ABz4CZ1Hv3f4CIJ8/B4VVoOaTxDB6V6C10ob1aRH
+HatwBCkFXs9VzG90KbKA5z8ZdIqE1OefH5Mtbi6UHVkg7kbZMXihxlGFEXS/haOx
+ZjxqQbdmU/WgkSnQ594zZwpn4NMwylaC7jLR8cE06kL8JlncGHBArsjVJQ/PZ8nl
+ALxWYL8zIFTByC/kshKPqauwwFjLQeBSnulHB+Ip/wq+wC/k8UuSVOgqHBZmbdZz
+ma728Q3qrcmkh58OPCK/Bx3T37TJadnv/W1wBEJBHLoWpD0FRepThF8fQ3B9yFeF
+4nzWkyGcpZJrMDxauvzdXp6Mc7ti1FvdVDDXntjPDdnT2fIAaxX7Gky6HugGpvws
+KnuJAdgEEAEIAEIWIQT/+Y6dxStfTHwYgzT+040UYNt0/QUCY3PrjQWDA8O4gAMF
+AXgahjxbXj5dK1tALl1raXR0aWVzXC5jb20+JAAACgkQ/tONFGDbdP3Ljwv+P9bq
+P2v4i+m7GlUcrPvnUWu9Lk0Rg/UTpWh5V4g1Op3fNfEfhDVHsNjvbtw8fsI4/8TR
+XfCRg4MscNDpOCOnn8ZVoL+hwGfJQiAV01FvpK15069Jozovd1PLq/GEdBROuAlm
+RNk8mCpxqzHI7JIrI2ICBgLUy+q93NgZtMXTBFm+aIjyF2hk6j3Ih6WysM0db8Xh
+Uija39/pROVxpkucZS4oFtzrXGBoaOLNnGDm+keEAgOqZLJgk1EnpgNcROhDW/yP
+xApXnFHeCvY4/78OUnXaPp9gYT8N+Z0WSaU33WPKdCa4LjnkQZ0NFWCSDTsOOb1u
+ZgIhHaCBo5cOGWmyoxmjBrJpBQjUiUDUL6IrYLdAF/H38WwydRbJgxEZzBkRM57Y
+KdM/6CouPS7M2QX6YIxRrTAzbuHq6TtdNNxkDNlUAHELXg0yx6JUyNq62Stmhz4I
+NHwibeKmPIGWtTukJMbeBU+qpf6CmpV3TwQAkUBy0a0C4eEG5KaqLMEC95u/iQGz
+BBABCAAdFiEE//mOncUrX0x8GIM0/tONFGDbdP0FAmNz7AQACgkQ/tONFGDbdP0w
+uAv/Zt8xBMDHOi4Jv6bZJpdxfrODLvVS+Own0aDzs4nrx2RUf0192rna/L5Ck4Go
+1E6wsujTAYHgHNGcKXTknFWRhNLc6FhRq9VBXTog8P6obAK8fpeb7rTGNvgHYY3g
+4PXHyISiUEW0zw9Yt3FTC1mBbjOpr+HWuSFCauWApsdLwI/V+CCEUIy7jHSfGFmN
+jUYkbhqmzOU+m2iPg15ITWiMDy9J2L78oa13su9c4K0mZpWuafNVJQYGk5Un7npD
+ouuuNtth9bPgQU9dZ1Sl7RdTMkaOtGlS0nNui55w26XRYUvAj6O8VkEKw5BUuUry
+ceCHING+NSGdwijZdBzimMUDpUA7MSaQJqHm/dnERnHEZxrDdrUI6+9S6/Ggr+Kb
+2U9SSifmyHQy3Bf8VwHo6+Uh97Ng/JWf9nQ2zawUH3X723IvPe8ezDHHF0li8GW2
+gyszfeTglk2HCDPi0sZmgI4VFLVBdlTjZwHgTtBzavFz9wCDhy6/vaG9KJrBWU7L
+D7PtiQGzBBABCAAdFiEE//mOncUrX0x8GIM0/tONFGDbdP0FAmNz7gYACgkQ/tON
+FGDbdP190gwAmY+xXhy18I+BBnrG0qGSIgJ7TRRoHeAIuF53jFumSsn90hUe2cfi
+p6RxibdSJkqDlSo56XKKKe31RFMRjKREuIyuKLDyrHxTMNBBZwMYTy0ISVqZ04ap
+P4L59t9QHfof3x3AESQwYlzROl0g7SU9jfxfAPaDh7dX6Kd4QAPxdzksicoUq8Hn
+kyNE1wot1snQqnZUzcjU4XdV4IByKUu2NQBUKyehBo47EBXwT2dWT9OeuXpsMILO
+0mKQ8e/UNYfslKul5Ylb0GmwfnuqgsjZya5IZr+Y1TvMMZ+WZU/6rrJbqVxm1UIB
+YOrVaRjhpi1g7FKCW+Uk6hK+pFo3FT4D0x7gjS1xhEoCCu2T+2zKa8Lf7qAWV2PV
+1CvhHcrYOGDblqtXz6shryzdR4Au9FQcYQ2RPxFmjgfj/FnJnCQHULnMJd3xk4e7
+BWF4Es9JaGGWBy4+Hv2PEr50Cyn6xhHAv07MOtC4p09NWp4o3BVws3ldxAxdLZ4Y
+Di8Wv7RJkHbpiQGzBBABCAAdFiEE//mOncUrX0x8GIM0/tONFGDbdP0FAmNz7pYA
+CgkQ/tONFGDbdP2C7gv+NNAQUPPZbTF3mpX5irgdQ86TKNDcRibWJaeBsUqxRgG5
+3zqlLiKG3Nu5yvFZQM2JvO83CJJyG6RcA9owey0Lqn5wzWcsN+wfrobRzaVpimnD
+2eJ/061XRcVgOP3oFItwJtZNDBbxeD+wiNq2o2zi1qcA6oMqzFD9IBwRmDvXhoCi
+AtXFqr+nsxHbxrHCL3NyubI1qDNuJRQyh5ZFCfeg1/OUu7cFs3Xw2IeqgKTd7Z+K
+SpNHQCJ642G3nileMqkAfJrQ4NnMSl0wjJb74XfDrfoZkA81sTJd/rNYOnc5tK2d
+a9gHt1G+6TQ9fJI/Me2bQrxiGYMkGfw0qFy8q9nelN6jPh8i8xL+cwfIdFqkYw2G
+BFAjim/j1pd79VbEyOPGdcHVuPyrk0QvKMEbjiff2uKbjcfL+MJWZJzSbr6Byv/+
+hfeUZ8IsCmS2fWYOb7+bWqtkfnmzArq3I9ZL3py8PV+HLQkN3r6uLM//kXYJWvJF
+f9NlU81zlmqQN1pYuEudiQGzBBABCAAdFiEEyjtG7jzofAj8uUXp2AT/6rJC2jYF
+AmNz8MIACgkQ2AT/6rJC2jZPlAv/ZW6UhXUaKOeq4pOMOqy7BFF8+TuOG3dits8i
+FujFc3gMYyX0w6Zj+EtbtXwF1TcftRvHAxMtV+IFlEsH0P0nNwSl1tSHZ7+CEvCv
+Kv3cRpgNTXs39C0SIXBnyHUYcHNQ1LKdy0WECk9mh/Nds5VwdvoksdNT7ab8qNib
+GbMpjHdyKsaCXiS+jXpw9wDka6rx4FdoSKGCJPANoZyKSMMcGfoFbHx678vVi9y0
+W+qKtcDZn7V1oayoUrISHjYIfWnr1Hu0/oqE/0MpSDzrwJ4mu4K6Etuszep/qOya
+j2ek5IQRCdC4x7yTfXXqelbwJk5FPHEqKMEF7HErCCLLA5lUbS5+PU6VrgJ53W5q
+vzj87Jw/p0bIyZjOgce+O01R9Da+uBORx1m5jmYgIlddyJAep1hgzRG14bTSEFye
+wRaw95yrTJKac15Fqay1bIWbrF70dNEAb6CR1DSVZMxyvz3HdRaq/pZtJ94G9qW7
+e0Vk+yBws696GsCro6PjDE/XqcwniQGzBBABCAAdFiEEyjtG7jzofAj8uUXp2AT/
+6rJC2jYFAmNz9OMACgkQ2AT/6rJC2jbCjgv9HP9rNUc9jh3ekgZ+WS7rBd6ATb/D
+budqv2lLqZRUej3ENY/oE1zbIbCMCQa+fIUJY6/gGGaZYMuQaWhxG7MxkhNBjFDE
+T+hi0MVs9Qtu05RsuyI/PNR2sPVMwQJcI1yRq6FvabQJcdD2jxw2O6R55zAyus99
+c5ltgSPinAwdHqnuAa3+hD09VsXhont+LlH+IGjA7rrnuG0S13EMUcm7ptr13Uzg
+KjlQp9RHtbAsFk8Fkk4Ew6dEM2yeK/QbvfNXo3BuYDdj54H5UY6++WcUnMEJHIE+
+8RpLk2jd/b2AvKH4ykD38eRces1sSHnwzo4ThiO/IPohnZrSOapkKg4J0t0n3/d8
+P++krjeZ2ukHVlGxD+bqW20AZ8yqxpepGRihSbyDDWWKZSExoCXkSpbohWgIgZom
+Qkw3lVnBuX1YCS7NRLzaViDXRJCLiMedV6pfyKGNN946517RqDT9a9NC+ca7lC+8
+3Llp/1ps6X0IDWc2uSx2EJ8NqUU6rgIUod0ZiQGzBBABCAAdFiEEyjtG7jzofAj8
+uUXp2AT/6rJC2jYFAmNz90EACgkQ2AT/6rJC2jY8tgv9EaOTW2qNp5iat+B0GFp/
+bmLW6GvsXTmxJR+3U8tboAO1XoOlRdfPA6nibS6O2exqc7yTo7JhGnNsHB1lQksz
+opEoJh/0HqqWYXg62iyFYMwIqtFjbVZWu3dUyAcydy0JTCMTzX7mgrDC9cT7qnCq
+N7DAA+/x58xYNGcZekF0B0b78K1sttUgUWu+6Nd3b75wmVu7Fg/GmYEhiLgENhuQ
+n8BVLiaRBzaKbxPdjH0sRORIMPQyIei5wSzfSOQCUBI+ID+n5swJ3OG5xGTtIMpV
+6iGhsIDjLkjTezcGrdCil9tHJ98020IzS0Dsh2gn/nxF8B04UQdx0rs1QDTkP86n
+f/tUuBeAvOvYFHmf8BseR9KV61YaSzPW6/4Kw4KaqCmZudOEzKhqPirPODLmu7Ja
+NyAx3aYeON0i4ouDvNGUxGNQIrnob8PJEtnGU+MaAQGvQyf+gjY7NaNXML3/E+bI
+rHigkKV120mEkaA/t0JsvL27M2blKhgF1VKPWqfz6YvYiQGzBBABCAAdFiEEyjtG
+7jzofAj8uUXp2AT/6rJC2jYFAmNz+JQACgkQ2AT/6rJC2jZayQv+N6mk06vH4+Tk
+PXUszeRSvrSWjcFouopbrUF7Br7CzfU7YIaDP1U5eP6JuEtSAy9Qkt55Ru+eZZJO
+ajUUx6EWmdNWZdGL5VlhnWK0pyP+iECnScV/qk65B7AOGCGe5pSzzi9Un9hgaxpF
+Tztov9aizwDqkKsSKKBf6q3SQHYf8rxEQaKvV56y37Nz7m6Csc2CKHUP7UgXf2+4
+9naC+OJPMlYr3mMNygqPGkGyBVwC8O49GLZ5cl45KYmm6q2dbOFxBiYN8x1KI9OO
+JTC9B5btHQ6O5eFwYw7c/yynmwfZ//lwjCfyYIPTUuzHigBEY/Wgjz2dJn77pRsK
+GXC2cRLmVAr5Aa+TDcRnPrAEbiUmaiqt6QjvON7Vq3UmkwMetVI1iSmoUvnMcQyg
+hLtBLhQhD1NsGEvTaajgnymbYmR99OZVUTaZLqOk/UfiOtmc5BmChOyCay73jUnc
+quS4+wIa63hF7lEExjmKJX008RMPdziJCS0PQYmfFGVP1tSwBfzmiQHYBBABCABC
+FiEE//mOncUrX0x8GIM0/tONFGDbdP0FAmNz+8YFgwPDuIADBQF4GoY8W14+XStb
+QC5da2l0dGllc1wuY29tPiQAAAoJEP7TjRRg23T9g/0MAJVzzUw+EuZDFX9LZ6Xa
+iVKaC7d+CObAzBQxPXF/zjqqjDscQ15nDW/MK23pmSd4vEuClqOeJP7fPKdy1ciw
+4CAzxarSggW5sy6eZxKiH8Pp58qx3zP0v3HRy6E3ngxi9BydvoXDr7TmkmFQCYKA
+Mlf+xgaLtyZbTWycIzj0V0xz1cDUUg+5Gju5FzqTz2dgeV9PuW6bNHyPkUo8zzqm
+X+f1qJTpBJcT9twQ9AoXXyUmN1rhVAOEpSTPcCo7QjmIwjvfsIhiRRf0XW22x7Ji
+Hud7ij0LLwNfM/jpQjss6kgllQ4YGzp4j0Zxsstd/cQzMimZjqLAaZle9G4DGcx1
+t+5dEHBO4j5jw9iHgKHT0bceqneZYUN2nP9vYPlIkBLPKVmuSOwqqXuyHfVs3fzI
+7jtn4C+moKc3hDjRftE7T8htxt6agYDWbpSwiEwiFcpKsSN/vHxKLPeuaGPk/era
+kJIUuZu6yhBR1zAyyo9kfUjgCKN3srDEPL/0bjxZYKvwmYkBzgQTAQgAOAIbAwUL
+CQgHAgYVCgkICwIEFgIDAQIeAQIXgBYhBD+g18yQbtUrl7A9WtlQ7SFLh6sqBQJh
+pb8ZAAoJENlQ7SFLh6sqEHgMAIHTNCdFwiqRHyarxgqAFT7b4LMjfBy8eBBxXdnX
+jgj+GSyQHez8me1hfTXFZRhbHE/iM0DKhcStJW5L68fsupuhCdeADS5dMg3vGC1m
+S8HS0TsrXd54zOWea9O8MXGXQzFe2Zjkfw5txukQIoJ5gDlLG2Znadw5GBW6FU0q
+Z+alqFRA/jEef9AF0wme0ST2bSKPWSawq7Ol/a7/cibRsTIBrBLeLjh/PuyAU3bL
+S5kBJFN5qnUU9Ggy1GfsrO8fshNDDNrKmHuiB+nvp8iwf/SrfxqcpDi05CHyrSsP
+DV6pIWW6BUIZOCIlKQ8GfXzknkE7zjVdbuQAm66MM+LQNF8DUxybDCdiKeTTcVz8
+MeNheT8aJCoe+WgMD1bi8ePlvigRGiCl8N7H4e1XhMzUB1slXhDB8g+kJ5uCXHWX
+pQndndcAmd34IpRj9hM005vtEAQyNN8oMLrcZVBBuhgVW1tFlaP2RujMjCI8BUVm
+Ltwc94yJckTvK+3IEsGI1hHPXbkBjQRfq79hAQwA2ovgEWtxyUTGss5CSJl03sRL
+B9M/2yhEID/eZ7XNJsypPlFPih6Y0PrW6oWZyvvAZ0rCyniE/CWTBjuKCnAescl/
+93paVvzITmHYbzXOwFFKFVfsKUTl/FYO76/3yYJw7ND5vUFmJiMxqfK/v3H2NG3Z
+LLEwT3cZiHUXGTkcHb58ae0aaLE/3wgD7UzKoyApGZ1/LpQHqTG9SQ7beJ9kkxgf
+4LeHyAYSj5IflolJGnzVOTasruH92N+WQxzNe7mAKevGWLQqDS7r7jyAU+7kZoBu
+fkD6DVY0WAWOy/J9fQC9LLR0/Lu19WDTmWpdmn4hPqsyWNJ31HuuUE0VkH1VbiQA
+1bmHrx2saDaY/bENE418O/VogAiBzFdRKXXRUe+IitbN0uEPYdKFlVHs25kHZ/HO
+8rwBFrrsrfTVn1Zwcifb56+uHrdpuLUOiG1FJF9cGldWrIxjy7R8HCaAgjB4O3ox
+xGl7cgFBfIrpJ+sWZCo4n01CLUapq5A3Jda0qCXtABEBAAGJAbYEGAEIACACGwwW
+IQQ/oNfMkG7VK5ewPVrZUO0hS4erKgUCY3Pr4QAKCRDZUO0hS4erKtKZC/wIA3C4
+y22ODsiBRl5xvwXbHcpsu38fhR/aRmBXcEHca1GsHhtg7NQ7NRqWMD+oQWCzHN+H
+b157vUi+OAWLMhtnvo3T2eNsB+v+cjaJ+leFh9gN7tRMeeu8E3+lkT3e5pS0byuG
+gPbfiV9zRzRjoW56hTdNQWpMPydCsnSmaLkCWcc5k6YKcKzN2nFxszyOFxebhB7C
+e2xg1zOcevHPt7ipnhKOA13DPIe8HHiMnBRiDsD8dPgxwpP90tXHSNvO6jepyMPz
+JT1jC3xDVyPtY3PpW1qd5+2jfBUwdUmSTDZsv0B9HoWbQ4CIlW0mj4x8Nx+J4UgU
+xskMuYloTV2SlYS4Pn2xtaqRTZ5ju471QaXI1QUJEequ+vMFWlTrrzSXT5X8o8bb
+jRFEZtd8GJUTexh6d8rTUA+hNxNUS7F2/JQjmE3hMb02Gj0NYDj/lIVrsjLfpnkk
+TPMo/pi4ns2A4fhFrNBrGgY0boB1NVCfMkl9Vih6D7VfI5nZM8Pv7Pdou2o=
+=Pw4y
+-----END PGP PUBLIC KEY BLOCK-----</textarea> </div> <div> <div class="rounded-md shadow-md px-5 pt-4 bg-gray-800 flex flex-col"> <header class="flex items-center"> <a href="/u/theillusiveman" title="Visit theillusiveman's profile"> <span class="text-sm text-gray-400 mr-2">theillusiveman</span> </a> </header> <div class="mt-1 flex items-center"> <div class="w-1 h-1 rounded-full bg-red-500 mr-1"></div> <span class="text-xss font-bold text-gray-500">More than 3 days ago</span> </div> <div class="mt-4"> <a href="/store/theillusiveman" title="Browse other listings by theillusiveman"> <div class="rounded-md shadow-md bg-gray-700 py-1 px-3 flex items-center justify-between"> <span class="mr-3 text-xs text-gray-400">
+                                              Listings
+                                          </span> <span class="text-xss font-bold text-gray-400">3</span> </div> </a> <div class="rounded-md shadow-md bg-gray-700 py-1 px-3 flex items-center justify-between mt-2"> <span class="mr-3 text-xs text-gray-400">
+                    Auto-Finalize
+                </span> <span class="text-xss font-bold text-gray-400">
+                    5 days
+                </span> </div> <div class="rounded-md shadow-md bg-gray-700 py-1 px-3 flex items-center justify-between mt-2"> <span class="mr-3 text-xs text-gray-400">
+                                          Disputes
+                                      </span> <span class="text-xss font-bold text-gray-400">
+                    0
+                </span> </div> <div class="rounded-md shadow-md bg-gray-700 py-1 px-3 flex items-center justify-between mt-2 border-l-2 border-green-500"> <span class="mr-3 text-xs text-gray-400">
+                                          Disputes lost
+                                      </span> <span class="text-xss font-bold text-gray-400">
+                    0
+                </span> </div> </div> <div class="mt-6 flex px-5 -mb-3 w-full"> <div class="rounded-md shadow bg-gray-850 flex items-center justify-center p-2 w-full" title="Vendorrating: 4.00"> <span class="text-xs text-gray-500 font-bold">4.00</span> <div class="rounded-md w-4 h-2px bg-gray-700 bg-opacity-50 ml-1 mr-3"></div> <div class="flex"> <i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-indigo-400 mb-1 mr-1'></i><i class='gg-pill icon-small text-gray-600 mb-1'></i> </div> </div> </div> </div> </div> </div> </div> <div id="listing-types" class="fixed target-flex target-child-flex hidden bg-black bg-opacity-75 top-0 bottom-0 left-0 right-0 max-h-screen overflow-y-auto"> <div class="w-11/12 sm:w-10/12 md:w-7/12 lg:w-5/12 xl:w-1/3 ml-auto mr-auto py-24 hidden flex-col"> <div class="w-full bg-gray-800 rounded-t-lg p-8"> <div class="grid grid-cols-8 gap-6"> <div class="col-span-8 sm:col-span-1"> <div class="rounded-full w-10 h-10 bg-gray-700 flex items-center justify-center"> <i class="gg-info text-gray-500"></i> </div> </div> <div class="col-span-8 sm:col-span-7"> <h4 class="text-gray-400 text-lg">Listingtypes</h4> <p class="text-gray-500 text-sm mt-4 leading-relaxed"><span class="text-white">FE / Finalize early</span> <br> You will need to finalize prior to receiving your package.</p> <p class="text-gray-500 text-sm mt-4 leading-relaxed"><span class="text-white">Escrow</span> <br> Finalize only after, you received your package. We can secure your funds, if you use escrow</p> </div> </div> </div> <footer class="w-full bg-gray-900 rounded-b-lg p-4"> <div class="flex items-center flex-col sm:flex-row sm:justify-end"> <a href="#"> <button type="button" class="rounded-md shadow-md px-5 text-sm text-gray-500 h-10 border-gray-800 border-opacity-50 border-2 hover:bg-indigo-400 hover:text-white transition-colors duration-200">
+                            Close
+                        </button> </a> </div> </footer> </div> </div> <div id="pgp-key" class="fixed target-flex target-child-flex hidden bg-black bg-opacity-75 top-0 bottom-0 left-0 right-0 max-h-screen overflow-y-auto z-20"> <div class="w-11/12 sm:w-10/12 md:w-7/12 lg:w-5/12 xl:w-1/3 ml-auto mr-auto py-24 hidden flex-col"> <div class="w-full bg-gray-800 rounded-t-lg p-8"> <div class="grid grid-cols-8 gap-6"> <div class="col-span-8 sm:col-span-1"> <div class="rounded-full w-10 h-10 bg-gray-700 flex items-center justify-center"> <i class="gg-info text-gray-500"></i> </div> </div> <div class="col-span-8 sm:col-span-7"> <h4 class="text-gray-400 text-lg">PGP Public Keys</h4> <p class="text-gray-500 text-sm mt-4 leading-relaxed">There are two types of PGP Public Keys on Archetyp: <b>Auth PGP Public Key</b> and <b>Message PGP Public Key</b></p> <p class="text-gray-500 text-sm mt-4 leading-relaxed"><b>Auth PGP Public Key</b>: This key is used to identify the vendor, he also uses this Key to login to the market and for 2-FA, you may use this key to encrypt messages and shipping details too.</p> <p class="text-gray-500 text-sm mt-4 leading-relaxed"> <b>Message PGP Public Key</b>: This key is only used to encrypt messages and shipping details for the vendor. This key is only setup if the vendor has staff workers, that help him to manage his presence on Archetyp.</p> </div> </div> </div> <footer class="w-full bg-gray-900 rounded-b-lg p-4"> <div class="flex items-center flex-col sm:flex-row sm:justify-end"> <a href="#"> <button type="button" class="rounded-md shadow-md px-5 text-sm text-gray-500 h-10 border-gray-800 border-opacity-50 border-2 hover:bg-indigo-400 hover:text-white transition-colors duration-200">
+                            Close
+                        </button> </a> </div> </footer> </div> </div> </main></div> <div id="wallet" class="fixed target-flex target-child-flex hidden bg-black bg-opacity-75 top-0 bottom-0 left-0 right-0 max-h-screen overflow-y-auto z-20"> <div class="w-11/12 sm:w-10/12 md:w-7/12 lg:w-5/12 xl:w-1/3 ml-auto mr-auto py-24 hidden flex-col"> <div class="w-full bg-gray-800 rounded-t-lg p-8"> <div class="grid grid-cols-8 gap-6"> <div class="col-span-8 sm:col-span-1"> <div class="rounded-full w-10 h-10 bg-gray-700 flex items-center justify-center"> <i class="gg-euro text-gray-500"></i> </div> </div> <div class="col-span-8 sm:col-span-7"> <h4 class="text-gray-400 text-lg">Wallet information</h4> <p class="text-gray-500 text-sm mt-4 leading-relaxed">Your XMR wallet holds your digital market funds. You pay products and receive money with it.</p> <div class="mt-6"> <label class="flex items-center" for="wallet-address"> <i class="gg-euro mr-3 text-gray-600"></i> <span class="text-gray-400">XMR Wallet address</span> </label> <textarea id="wallet-address" class="bg-gray-700 mt-2 rounded-md shadow-md text-gray-400 text-xs font-mono overflow-y-auto p-3 w-full" rows="3" readonly>4Hx34iV8DiDjReY5mpBUNEL6JFgxC66brXLvAWbVnXW3g4VVzwwKMks881VVmadvy87sMF6ChN9F6SNZtouS78Df6GuLf7vvQHTR7Qva1u</textarea> </div> <div class="flex items-center mt-2"> <i class="text-red-500 gg-danger icon-smaller mr-2 flex-shrink-0"></i> <p class="text-xs text-gray-500">Make sure to copy the full address and only send XMR!</p> </div> <div class="mt-8"> <div class="bg-gray-900 rounded-md flex flex-col sm:flex-row relative"> <div class="w-full sm:w-1/2 flex flex-col pt-4 pb-6 sm:pb-4 px-6 border-b sm:border-b-0 sm:border-r border-gray-800 border-opacity-50"> <span class="text-gray-400 text-xl">
+                                            0.0000
+                                        </span> <span class="font-bold text-sm text-gray-600">
+                                            XMR
+                                        </span> </div> <div class="absolute rounded-full bg-gray-700 w-10 h-10 flex items-center justify-center shadow-md left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-1/2"> <i class="gg-math-equal text-gray-500 icon-small"></i> </div> <div class="w-full sm:w-1/2 flex flex-col pb-4 pt-6 sm:pt-4 px-6 sm:text-right border-t sm:border-t-0 sm:border-l border-gray-800 border-opacity-50"> <span class="text-gray-400 text-xl">
+                                            0.00
+                                        </span> <span class="font-bold text-sm text-gray-600">
+                                        EUR
+                                </span> </div> </div> </div> </div> </div> </div> <footer class="w-full bg-gray-900 rounded-b-lg p-4"> <div class="flex items-center flex-col sm:flex-row sm:justify-end"> <a href="#"> <button type="button" class="rounded-md shadow-md px-5 text-sm text-gray-500 h-10 border-gray-800 border-opacity-50 border-2 hover:bg-indigo-400 hover:text-white transition-colors duration-200 mb-3 sm:mb-0 mr-4">
+                        Close
+                    </button> </a> <a href="/wallet/history"> <button type="button" class="rounded-md mr-2 shadow-md bg-gray-800 px-5 text-sm text-gray-400 h-10 border-indigo-400 border-opacity-50 border-2 hover:bg-indigo-400 hover:text-white transition-colors duration-200">
+                        History
+                    </button> </a> <a href="/wallet"> <button type="button" class="rounded-md shadow-md bg-gray-800 px-5 text-sm text-gray-400 h-10 border-indigo-400 border-opacity-50 border-2 hover:bg-indigo-400 hover:text-white transition-colors duration-200">
+                        Wallet
+                    </button> </a> </div> </footer> </div> </div><footer class="bg-gray-850 text-gray-500 items-center pt-5 sm:mt-20 pt-10"> <div class="flex flex-wrap container mx-auto items-center justify-center"> <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12"> <div class="text-xs uppercase text-gray-600 font-medium mb-6">
+                Getting Started
+            </div> <a href="/home" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Home
+            </a> <a href="/settings" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Settings
+            </a> <a href="/help" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Helpdesk
+            </a> <a href="/referral" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Referral
+            </a> </div> <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12"> <div class="text-xs uppercase text-gray-600 font-medium mb-6">
+                Core
+            </div> <a href="/market" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Market
+            </a> <a href="/deadpool" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Deadpool
+            </a> <a href="/vendorstores" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Vendorstores
+            </a> <a href="/apply" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Become a vendor
+            </a> </div> <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12"> <div class="text-xs uppercase text-gray-600 font-medium mb-6">
+                Community
+            </div> <a href="/forum" class="my-3 block hover:text-gray-100 text-sm font-medium duration-700">
+                Forum
+            </a> <a href="/archewiki" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                ArcheWiki
+            </a> <a href="/team" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Team
+            </a> <a href="/post/cE1tZzNubll1MWsySmxBNFJwV005UT09" class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Patchnotes
+            </a> </div> <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12"> <div class="text-xs uppercase text-gray-600 font-medium mb-6">
+                Statistics
+            </div> <p class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Users: 161792
+            </p> <p class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Vendors: 1051
+            </p> <p class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Listings: 6130
+            </p> <p class="my-3 block  hover:text-gray-100 text-sm font-medium duration-700">
+                Banned: 803
+            </p> </div> </div> <div class="pt-2 bg-gray-900"> <div class="flex pb-5 px-3 m-auto pt-5 justify-center flex flex-wrap text-sm flex-col md:flex-row"> <div class="mt-2">
+                “Think of all the beauty still left around you and be happy.” – Anne Frank
+            </div> </div> </div> </footer> </body> </html>
